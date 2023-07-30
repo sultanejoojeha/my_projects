@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url("data:image/jpeg;base64,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");
+    font-family: cursive;
+    font-size: 22px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form{
+    padding: 100px;
+    box-shadow: 0px 0px 100px rgb(237, 241, 0.3);
+    border-radius:  700px;
+    margin: 10px;
+}
+.input{
+    display: inline;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 21px;
+    font-family: cursive;
+    padding: 5px;
+    border: solid 3px rgb(52, 52, 206);
+    box-shadow: 0 0 60px rgb(255, 230, 0);
+    color: rgb(52, 52, 206);
+    background-color: rgb(240, 243, 202);
+}
+.input::placeholder{
+    color: gray;
+    font-family: cursive;
+}
+.btn{
+    background-color: rgb(255, 255, 0);
+    border: solid 3px rgb(52, 52, 206);
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-family: cursive;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 0 0 50px rgb(255, 230, 0);
+    margin: 3px;
+    cursor: pointer;
+    filter:brightness(0.8)
+}
+.btn:hover{
+    filter:brightness(1)
+}
+.score{
+    font-size: 30px;
+    color: rgb(255, 255, 0);
+    font-family: cursive;
+    text-align: center;
+}

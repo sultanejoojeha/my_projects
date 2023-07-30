@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    background-color: rgb(253, 255, 145);
+}
+
+h1{
+    text-align: center;
+    animation: color-change 1s infinite;
+    text-shadow: 0 0 4px;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.color-container{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 150px;
+    color: white;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.4);
+    border: solid black 2px;
+    border-radius: 7.5px;
+}

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1565118531796-763e5082d113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(252, 40, 3);
+    text-shadow: 1px 1px 2px ;
+
+}
+
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin: 17px;
+    position: relative;
+}
+
+.clock span{
+    outline-style: outset;
+    outline-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 80px;
+    background-color: rgba(255, 38, 0, 0.952);
+    opacity: .8;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+
+}
+
+.clock .text{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: rgba(177, 0, 0, 0.959);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    border-radius: 100px;
+    bottom: 0;
+    position: absolute;
+    width: 65px;
+    height: 40px;
+    font-size: 25px;
+    background: rgba(0, 3, 177, 0.589);
+
+    
+}
+
