@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: cursive;
+    font-size: 17px;
+}
+.bg-image{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4hrmZJZThGDjq30d-B1giuRm-Nz7ZHTapw3Sj5zraAkgHmK812ZaUCdFSINVZCvUSf3Q&usqp=CAU');
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 160%;
+}
+h1{
+    font-size: 50px;
+
+}
+.container{
+    padding: 100px;
+
+}
+
+p{
+    color: rgb(39, 0, 0);
+}
+
+@media (max-width:500px) {
+    .container{
+        padding: 10px;
+    }
+}
